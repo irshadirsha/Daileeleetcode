@@ -7,7 +7,7 @@ var plusOne = function(digits) {
     let number=digits.join('')
     let numbers=BigInt(number)
      arr.push(numbers+1n)
-    const num = arr[0].toString().split('').map(Number)
-     return num
+     return arr[0].toString().split('').map(Number)
+    
 
 };
