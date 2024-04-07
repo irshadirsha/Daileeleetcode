@@ -16,20 +16,15 @@
 
 
 // var containsDuplicate = function(nums) {
-//    console.log(nums)
-//    let flag=0
+//    let res=false
 //    for(let i=0;i<nums.length;i++){
 //       for(let j=i+1;j<nums.length;j++){
-//         if(nums[i]!==nums[j]){
-//          continue
-//         }else{
-//          flag=1
-//          return true
-//         }
+//         if(nums[i]==nums[j]){
+//         res=true
+//         return res
 //       }
 
 // }
-// if(flag==0){
-//    return false
 // }
+// return res
 // }
