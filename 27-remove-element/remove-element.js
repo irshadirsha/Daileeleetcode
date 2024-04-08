@@ -5,13 +5,11 @@
  */
 
 var removeElement = function(nums, val) {
-    let  i = 0;
-    while(i<nums.length){
-        if(nums[i] == val){
-            nums.splice(i,1)
-        }else{
-            i++;
-        }
-    }
-    return nums.length;
+   for(let i =nums.length-1;i>=0;i--) {
+       if(nums[i]===val){
+           nums.splice(i,1);
+       }
+   }
+   return nums.length;
 };
+
